@@ -19,10 +19,12 @@ useSeoMeta({ title: 'About Us | Bristol Technical Contracting', description: 'Le
     <section class="relative isolate flex min-h-[420px] items-center overflow-hidden bg-[#002f65] lg:min-h-[500px]">
 
         <!-- Background Image -->
-        <div
-            class="absolute inset-0 -z-20 bg-cover bg-center"
-            style="background-image: url('/images/Banner/About.png');">
-        </div>
+        <img
+            src="/images/Banner/About.png"
+            alt="Bristol Technical Contracting engineering and project team"
+            fetchpriority="high"
+            class="absolute inset-0 -z-20 h-full w-full object-cover object-center"
+        />
 
         <!-- Gradient Overlay -->
         <div class="absolute inset-0 -z-10 bg-gradient-to-r from-[#002f65]/95 via-[#002f65]/80 to-[#002f65]/10"></div>

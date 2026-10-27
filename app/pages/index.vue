@@ -17,10 +17,12 @@ useSeoMeta({ title: 'Home | Bristol Technical Contracting', description: 'Bristo
         <section class="relative isolate flex items-center overflow-hidden bg-[#002f65] ">
 
             <!-- Hero Background -->
-            <div
-                class="absolute inset-0 -z-20 bg-cover bg-[position:65%_center] lg:bg-center"
-                style="background-image: url('/images/Banner/Home.png');">
-            </div>
+            <img
+                src="/images/Banner/Home.png"
+                alt="Bristol Technical Contracting MEP Services"
+                fetchpriority="high"
+                class="absolute inset-0 -z-20 h-full w-full object-cover object-[65%_center] lg:object-center"
+            />
 
             <!-- Blue Gradient Overlay -->
             <div class="absolute inset-0 -z-10 bg-gradient-to-r from-[#002f65]/95 via-[#002f65]/80 to-[#002f65]/10"></div>
