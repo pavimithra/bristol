@@ -16,7 +16,7 @@ useSeoMeta({ title: 'About Us | Bristol Technical Contracting', description: 'Le
     <!-- ======================================
          1. ABOUT US HERO BANNER
     ======================================= -->
-    <section class="relative isolate flex min-h-[420px] items-center overflow-hidden bg-[#002f65] lg:min-h-[500px]">
+    <section class="relative isolate flex min-h-105 items-center overflow-hidden bg-[#002f65] lg:min-h-125">
 
         <!-- Background Image -->
         <img
@@ -27,9 +27,9 @@ useSeoMeta({ title: 'About Us | Bristol Technical Contracting', description: 'Le
         />
 
         <!-- Gradient Overlay -->
-        <div class="absolute inset-0 -z-10 bg-gradient-to-r from-[#002f65]/95 via-[#002f65]/80 to-[#002f65]/10"></div>
+        <div class="absolute inset-0 -z-10 bg-linear-to-r from-[#002f65]/95 via-[#002f65]/80 to-[#002f65]/10"></div>
 
-        <div class="mx-auto w-full max-w-7xl px-6 py-10 lg:px-8 sm:min-h-[450px] lg:min-h-[490px]">
+        <div class="mx-auto w-full max-w-7xl px-6 py-10 lg:px-8 sm:min-h-112.5 lg:min-h-122.5">
 
             <div class="max-w-2xl">
 
@@ -46,7 +46,7 @@ useSeoMeta({ title: 'About Us | Bristol Technical Contracting', description: 'Le
 
                 <!-- Eyebrow -->
                 <div class="mb-5 flex items-center gap-3">
-                    <span class="h-[3px] w-10 bg-[#c03400]"></span>
+                    <span class="h-0.75 w-10 bg-[#c03400]"></span>
                     <span class="text-xs font-semibold uppercase tracking-[0.22em] text-white/90">
                         About Bristol Contracting
                     </span>
@@ -105,7 +105,7 @@ useSeoMeta({ title: 'About Us | Bristol Technical Contracting', description: 'Le
                         <p class="text-xs font-bold uppercase tracking-[0.18em] text-[#c03400]">
                             Company Overview
                         </p>
-                        <div class="mt-3 h-[3px] w-8 bg-[#c03400]"></div>
+                        <div class="mt-3 h-0.75 w-8 bg-[#c03400]"></div>
                     </div>
 
                     <h2 class="max-w-2xl text-3xl font-bold leading-tight tracking-tight text-[#002f65] sm:text-4xl lg:text-[44px]">
@@ -118,9 +118,8 @@ useSeoMeta({ title: 'About Us | Bristol Technical Contracting', description: 'Le
                         <p>
                             At <strong class="font-semibold text-[#002f65]">
                             Bristol Technical Contracting</strong>,
-                            we deliver comprehensive Mechanical,
-                            Electrical, Plumbing, and Interior Fit-out
-                            solutions tailored to the requirements of
+                            we bring over 10 years of industry experience to delivering comprehensive Mechanical, 
+                            Electrical, Plumbing, and Interior Fit-out solutions tailored to the requirements of 
                             residential, commercial, and industrial projects.
                         </p>
 
@@ -163,7 +162,7 @@ useSeoMeta({ title: 'About Us | Bristol Technical Contracting', description: 'Le
                 <!-- Right Card -->
                 <div class="min-w-0 w-full">
 
-                    <div class="relative flex min-h-[440px] w-full flex-col overflow-hidden rounded-xl bg-[#002f65] p-7 text-white shadow-xl shadow-[#002f65]/10 sm:p-9 lg:p-10">
+                    <div class="relative flex min-h-110 w-full flex-col overflow-hidden rounded-xl bg-[#002f65] p-7 text-white shadow-xl shadow-[#002f65]/10 sm:p-9 lg:p-10">
                         <!-- Decorative Circles -->
                         <div class="absolute -right-16 -top-16 h-44 w-44 rounded-full border border-white/10"></div>
                         <div class="absolute -right-8 -top-8 h-28 w-28 rounded-full border border-white/10"></div>
@@ -798,7 +797,7 @@ useSeoMeta({ title: 'About Us | Bristol Technical Contracting', description: 'Le
                         src="/images/about-commitment.png"
                         alt="Engineering and MEP installation works"
                         loading="lazy"
-                        class="h-[350px] w-full rounded-xl object-cover shadow-lg sm:h-[440px]"
+                        class="h-87.5 w-full rounded-xl object-cover shadow-lg sm:h-110"
                     >
 
                     <!-- Orange Accent -->
